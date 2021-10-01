@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+
+
+
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Lato', sans-serif;
+}
+.header{
+    background-color: #93C5FD;
+    padding:1rem ;
+    margin-bottom: 3rem;
+    max-height: fit-content;
+    overflow: auto;
+    border-bottom-left-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+
+    
+}
+.main{
+    text-align: center;
+    width:50%;
+    margin:auto;
+    font-size:larger;
+    min-height: 70vh;
+    
+}
+.sub-heading{
+    padding-bottom: 1.5rem;
+    font-size: larger;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+a:hover{
+    font-weight: bolder;
+}
+.active{
+    font-weight: bolder;
+}
+.nav-item{
+    text-align: right;
+}
+
+
+li{
+    list-style:none;
+    display:inline;
+    padding:0.2rem;
+    margin:0.5rem;
+    font-size: 1.4rem;
+    
+}
+nav li{
+    display: inline-block;
+}
+
+.inputbox{
+    display:block;
+    margin:0.5rem;
+    width:100%;
+    font-size:large;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+.btn{
+    font-size:larger;
+    padding:0.3rem;
+    margin:0.5rem;
+    border-radius: 0.3rem;
+    border:2px solid #60A5FA;
+    background-color:#BFDBFE ;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #DBEAFE;
+    
+}
+.question{
+    margin:1.2rem;
+    padding-bottom:1rem;
+    line-height:2rem;
+}
+.result{
+    font-size:large;
+    margin:0.5rem;
+    padding:0.2rem;
+
+}
+.formula{
+    font-size:large;
+    border:2px solid #60A5FA;
+    padding:0.3rem;
+    margin:0.5rem;
+    border-radius: 0.3rem;
+}
+footer{
+    background-color: #93C5FD;
+    padding:2rem 0 ;
+    max-height:3rem;
+    text-align: center;
+    font-size: larger;
+    border-top-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
+}

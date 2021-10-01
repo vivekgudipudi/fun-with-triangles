@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun with Triangles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Fun with Triangles</h1>
+        <nav><ul class="nav-item">
+            <li ><a href="index.html">Is Triangle?</a></li>
+            <li ><a href="#" class="active">Quiz</a></li>
+            <li ><a href="hypotenuse.html">Hypotenuse</a></li>
+            <li ><a href="area.html">Area</a></li></ul>
+        </nav>
+    </div>
+    <div class="main">
+        <h2 class="sub-heading">How well do you know triangles?</h2>
+        <form >
+            <div class="question">
+                <label for="question1">1. Calculate the third angle if two angles are 45°,45°?<br>
+                    <input type="radio" name="question1" value="90"> &nbsp; 90°  &nbsp;
+                    <input type="radio" name="question1" value="30">&nbsp;  30° &nbsp; 
+                    <input type="radio" name="question1" value="60"> &nbsp; 60° &nbsp; 
+                </label>
+            </div>
+
+            <div class="question">
+                <label for="question2"> 2. Triangle having one angle as 90° is called?<br>
+                    <input type="radio" name="question2" value="right angled">&nbsp;Right angled&nbsp;
+                    <input type="radio" name="question2" value="acute angled">&nbsp;Acute angled&nbsp;
+                    <input type="radio" name="question2" value="obtuse angled">&nbsp;Obtuse angled&nbsp;
+                </label>
+            </div>
+
+            <div class="question">
+                <label for="question3">If two sides of a triangle are not equal,then triangle is called?<br>
+                    <input type="radio" name="question3" value="isosceles">&nbsp;Isosceles&nbsp;
+                    <input type="radio" name="question3" value="equilateral">&nbsp;Equilateral&nbsp;
+                    <input type="radio" name="question3" value="scalene">&nbsp;Scalene&nbsp;
+                    <input type="radio" name="question3" value="right angled">&nbsp;Right Angled&nbsp;
+                </label>
+            </div>
+
+            <div class="question">
+                <label for="question4">If all the three sides of a triangle are equal,then triangle is called?<br>
+                    <input type="text" id="quest4" placeholder="Enter the answer here" name="question4" class="inputbox">
+                </label>
+            </div>
+
+            <div class="question">
+                <label for="question5">The measure of each angle of an equilateral triangle is<br>
+                    <input type="radio" name="question5" value="30">&nbsp30°&nbsp
+                    <input type="radio" name="question5" value="90">&nbsp90°&nbsp
+                    <input type="radio" name="question5" value="60">&nbsp60°&nbsp
+                    <input type="radio" name="question5" value="45">&nbsp45°&nbsp
+                </label>
+            </div>
+        </form>
+        <button id="triangle-quiz" class="btn">Click Me!!</button>
+        <div id="quiz-result" class="result">Check your score here</div>
+
+        
+    </div>
+    <footer>
+        <p>Cant do homework on triangles??? chalo use my website :-> </p>
+    </footer>
+    <script src="quiz.js"></script>
+
+</body>
+
+</html>
